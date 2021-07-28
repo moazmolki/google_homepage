@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="/site_logo.png" />
+    <link rel="shortcut icon" href="me/site_logo.png" />
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,15 +13,17 @@
 
 <body>
     <header>
-        <ul class=menu>
-            <li class=menu_item><a class=menu_item_style href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
-            <li class=menu_item><a class=menu_item_style href="https://www.google.co.il/imghp?hl=en&ogbl">Images</a>
-            </li>
-            <li class=menu_item><a class=menu_item_style href="https://google.com">News</a></li>
-        </ul>
+        <nav class="nav">
+            <a class="nav-link" href="#">Gmail</a>
+            <a class="nav-link" href="#">Images</a>
+            <a class="nav-link-round" href="#"><button class="button-apps"></button></a>
+            <a href="https://github.com/moazmolki" class="nav-link-round" target="_blank">
+              <img class="user-avatar" src="img/me.png" alt="">
+            </a>
+          </nav>
     </header>
     <div id=logo>
-        <img src="logo.png" alt="Logo" class=logo_img>
+        <img src="img/logo.png" alt="Logo" class=logo_img>
 
         <form action="google.com/search" method="GET" role="search">
             <div class="A8SBwf">
@@ -43,7 +45,24 @@
 
         </form>
     </div>
+<footer class=footer>
+    <div class=left>
+<a class=footer_item>About</a>
+<a class=footer_item>Advertising</a>
+<a class=footer_item>Business</a>
+<a class=footer_item> How Search Works</a>
 
+ </div>
+
+ <div class=right>
+    <a class=footer_item>Privacy</a>
+    <a class=footer_item>Terms </a>
+    <a class=footer_item>Settings</a>
+    
+     </div>
+    
+
+</footer>
 
 </body>
 
