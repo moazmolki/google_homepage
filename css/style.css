@@ -1,3 +1,24 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+  }
+
+.menu_item{
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+.menu_item_style{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
 #logo{
 position: absolute;
 top: 25%;
@@ -742,3 +763,5 @@ a.aciXEb {
     .minidiv .iblpc {
         margin-top: 0
     }
+
+    
